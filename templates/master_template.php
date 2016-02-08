@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/components/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/dataTables.bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <style>
@@ -70,5 +71,8 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="vendor/components/jquery/jquery.min.js"></script>
 <script src="vendor/components/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.dataTables.min.js"></script>
+<script src="assets/js/dataTables.bootstrap.min.js"></script>
+<script src="assets/js/custom.js"></script>
 </body>
 </html>

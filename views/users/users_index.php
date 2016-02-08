@@ -1,18 +1,20 @@
 <h3>Users</h3>
 <ul class="list-group">
-    <table class="table table-bordered">
-        <tr>
-            <th>Full name</th>
-            <th>Username</th>
-        </tr>
-        <? foreach ($users as $user): ?>
+    <table id="users-table" class="table table-bordered">
+        <thead>
             <tr>
-                <td><?= $user['full_name'] ?></td>
-                <td><?= $user['username'] ?></td>
+                <th>Full name</th>
+                <th>Username</th>
             </tr>
-        <? endforeach ?>
-
-
+        </thead>
+        <tbody>
+            <? foreach ($users as $user): ?>
+                <tr>
+                    <td><?= $user['full_name'] ?></td>
+                    <td><?= $user['username'] ?></td>
+                </tr>
+            <? endforeach ?>
+        </tbody>
     </table>
 </ul>
 
